@@ -1,0 +1,32 @@
+@use 'config/reset.scss';
+@use 'config/variaveis.scss';
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid variaveis.$corSecundaria;
+
+    button {
+        height: 100px;
+        width: 150px;
+        margin: 32px 0;
+    }
+}
+
+header {
+    padding: 32px 0;
+    background-color: variaveis.$corPrincipal;
+    color: variaveis.$corSecundaria;
+    text-align: center;
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    .container {
+        max-width: 80%;
+    }
+}

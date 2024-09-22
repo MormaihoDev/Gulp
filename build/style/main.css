@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{max-width:1024px;width:100%;margin:20px auto;display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px solid #1dd8e6}.container button{height:100px;width:150px;margin:32px 0}header{padding:32px 0;background-color:#0110e0;color:#1dd8e6;text-align:center}@media screen and (max-width: 767px){.container{max-width:80%}}
+/*# sourceMappingURL=maps/main.css.map */
